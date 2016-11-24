@@ -1,0 +1,175 @@
+body, a, div, img, table, td, th, tr, ul, li, dl, dt, dd, h1, h2, h3, 
+p {margin: 0; padding: 0; border: 0 none; list-style:none; }   
+.body{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: auto;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+
+}
+.body-change{
+	background-image: url(../img/back.png);
+}
+.body-1-sel{
+	background-image: url(../img/photo/1_sel.jpg);
+}
+.body-2-sel{
+	background-image: url(../img/photo/2_sel.jpg);
+}
+.body-3-sel{
+	background-image: url(../img/photo/3_sel.jpg);
+}
+.body-4-sel{
+	background-image: url(../img/photo/4_sel.jpg);
+}
+.body-5-sel{
+	background-image: url(../img/photo/5_sel.jpg);
+}
+.body-6-sel{
+	background-image: url(../img/photo/6_sel.jpg);
+}
+
+
+
+.header{
+	width: 85%;
+	
+	padding-left: 15%;
+	position: relative;
+}
+@media only screen and (max-width: 1920px) 
+	{ 
+		.header{ 
+		height: 120px;
+		padding-top: 48px; 
+	}
+}
+
+@media only screen and (max-width: 1366px) 
+	{ 
+		.header{ 
+		height: 80px;
+		padding-top: 25px; 
+	}
+
+}
+
+
+.header-logo{
+	width: 20%;
+	height: 54px;
+	float: left;
+}
+.logo-img{
+	width: 196px;
+	height: 54px;
+	background-image:url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+.header-nav{
+	width: 80%;
+	height:54px;
+	float: left;
+}
+.header-nav ul{
+	margin-left: 10%;
+	font-size: 16px;
+	color: #E0E0E0;
+	font-family: "微软雅黑";
+}
+.header-nav ul li{
+
+	width: 108px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+	
+
+	
+
+}
+.cloud-cat-area{
+	width: 13%;
+	height: 48px;
+	margin-left: 5%;
+	margin-top: 6px;
+	line-height: 48px;
+	margin-bottom: auto;
+	text-align: center;
+	float: left;
+
+}
+.content{
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	
+}
+.content-text{
+	width:300px;
+	height: 300px;
+	
+	margin-top:200px;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+
+}
+
+@media only screen and (max-width: 1920px) 
+	{ 
+		.content-text{ 
+		margin-top:250px;
+	}
+}
+@media only screen and (max-width: 1366px) 
+	{ 
+		.content-text{ 
+		margin-top:150px;
+	}
+}
+.content-text ul{
+	margin-left:auto;
+	margin-right: auto;
+	color: white;
+}
+.content-title{
+	width: 299px;
+	height: 67px;
+	background-image: url(../img/title.png);
+}
+.content-phone{
+	width: 298px;
+	height: 33px;
+	margin-top: 20px;
+	line-height: 33px;
+	text-align: center;
+	font-size: 18px;
+	font-family: '微软雅黑';
+	letter-spacing: 1px;
+	background-image: url(../img/content-phone.png);
+}
+.content-line{
+	border: 1px solid white;
+	margin-top:20px;
+
+}
+.content-shop{
+	width: 299px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	letter-spacing: 1px;
+	margin-top: 26px;
+
+
+}

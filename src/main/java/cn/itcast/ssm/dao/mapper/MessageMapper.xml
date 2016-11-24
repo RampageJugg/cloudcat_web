@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.itcast.ssm.dao.MessageMapper">
+	
+	<!--查询消息信息 -->
+	<select id="getMessageGroup" parameterType="java.lang.Integer"  resultType="cn.itcast.ssm.po.Message">
+		SELECT F.id,F.username,F.Message FROM(
+		SELECT @rownum:=@rownum+1 rownum, t.* From
+		(SELECT @rownum:=0,A.* FROM message A  ORDER BY A.id desc) t
+		)F
+		WHERE F.rownum between #{0} and #{1}
+	
+	</select>
+	
+</mapper>

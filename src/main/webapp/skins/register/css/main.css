@@ -1,0 +1,107 @@
+/*初始化*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+table{border-collapse:collapse;border-spacing:0;}
+
+
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #696969;
+}
+.logo-con{
+	width: 50%;
+	height: 100%;
+	margin: auto;
+}
+
+.header-logo{
+	width: 35%;
+	height: 100%;
+	margin: auto;
+	float: left;
+}
+
+.header-title{
+	width: 30%;
+	height: 100%;
+	margin: auto;
+	float: left;
+	line-height: 80px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.have-account{
+
+	width: 30%;
+	height: 100%;
+	margin: auto;
+	float: left;
+	line-height: 80px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+.container{
+	width: 50%;
+	margin: auto;
+	padding:20px;
+}
+.main-clearfix{
+	width: 50%;
+	margin: auto;
+}
+.reg-form{
+	width: 100%;
+	border:1px solid #696969;
+}
+
+.form-item{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+.form-item label{
+	width: 140px;
+	height: 40px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	text-align: right;
+	display: block;
+	float: left;
+	
+}
+
+.form-item input{
+	width: 240px;
+	height: 40px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.form-agreen{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+
+}
+
+.btn-register{
+	width: 80%;
+	height: 50px;
+	border: none;
+	background-color: #696969;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	border-radius: 20px;
+
+}

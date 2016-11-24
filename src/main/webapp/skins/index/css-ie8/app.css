@@ -1,0 +1,56 @@
+body, a, div, img, table, td, th, tr, ul, li, dl, dt, dd, h1, h2, h3, p {margin: 0; padding: 0; border: 0 none; list-style:none; }  
+body{font-size:12px; line-height:22px; font-family:"宋体",Arial,Helvetica,sans-serif; color: #666; width:100%; height:100%; position:relative;}  
+html{width:100%; height:100%; overflow:hidden;}  
+
+
+.content-app{
+	width: 100%;
+	height: 100%;
+}
+.app-area{
+	width: 60%;
+	height: 800px;
+	margin-left: 20%;
+	position: relative;
+	margin-top: 20px;
+}
+
+
+
+
+
+.app-qrcode{
+	height: 514px;
+	margin-top: 200px;
+	width:40%;
+	float: left;	
+}
+
+.app-phone{
+	width:40%;
+	height: 877px;
+	float: left;
+	margin-left: 20%;
+	
+}
+
+
+
+
+.app-qrcode-img{
+	width: 305px;
+	height: 514px;
+	background-image: url(../img/app/qr.png); 
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+
+
+.app-phone-img{
+	width: 435px;
+			height: 877px;
+	background-image: url(../img/app/phone.png); 
+	background-repeat: no-repeat;
+	background-size:contain;
+}
+

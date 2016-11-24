@@ -1,0 +1,160 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+
+/*end reset*/
+/****-----start-body----****/
+.back{
+	background: url(../images/0194.jpg);
+	font-family: 'Open Sans', sans-serif;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	width: 100%;
+	height: 500px;
+	margin-top: 7%;
+	padding-top: 50px;
+}
+
+
+.login-form {
+	background: #FFFFFF;
+	position: relative;
+	width: 20%;
+	height: 70%;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	margin-left: 65%;
+	padding-top: 20px;
+
+	
+}
+
+.login-title{
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	color: black;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 40px;
+
+}
+/*--end-responsive-design--*/
+
+.username{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	
+}
+
+.username input{
+	height: 40px;
+	width: 60%;
+	float: left;
+	margin-left: 2%;
+	line-height: 60px;
+	margin-top: 10px;
+}
+
+
+
+.password{
+	width: 100%;
+	height: 60px;
+	position: relative;
+}
+.password input{
+	height: 40px;
+	width: 60%;
+	float: left;
+	margin-left: 2%;
+	line-height: 60px;
+	margin-top: 10px;
+}
+
+
+.input-lable{
+	width: 26%;
+	height: 60px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: black;
+	line-height: 60px;
+	float: left;
+	text-align: right;
+
+}
+
+
+.signin input{
+	clear: both;
+	width: 80%;
+	height: 50px;
+	background-color: #c40000;
+	margin-left:10%;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border:none;
+	margin-top:20px;
+
+	font-size: 20px;
+	font-family: "微软雅黑";
+}
+
+.register{
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+	font-size: 15px;
+	color: white;
+	font-family: "微软雅黑";
+	
+	margin-left: 50%;
+}
+.register a{
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+
+.login-msg
+{
+	font-size: 15px;
+	color: red;
+	font-family: "微软雅黑";
+	margin-top:20px;
+	text-align:left;
+	margin-left:50px;
+}
